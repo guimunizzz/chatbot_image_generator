@@ -1,4 +1,4 @@
-```
+
 # ⚡ CYBER IMAGE GENERATOR
 
 ![Demo](https://via.placeholder.com/800x400/1a1a1a/00ffaa?text=AI+IMAGE+GENERATION+DEMO)
