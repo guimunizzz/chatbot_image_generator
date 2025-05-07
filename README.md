@@ -1,61 +1,80 @@
-# 🌆 Stability AI - Image Generator
+Aqui está um README.md personalizado e estilizado para o seu projeto, seguindo o tema "dark tech" que implementamos:
 
-Gerador de imagens que utiliza modelo de inteligência artificial dá Stability, para criar artes digitais a partir de descrições textuais. Desenvolvido com Python e Streamlit, oferece uma interface simples e intuitiva para usuários que desejam explorar o potencial criativo da IA.
+```markdown
+# ⚡ CYBER IMAGE GENERATOR
 
-## 🚀 Funcionalidades
+![Demo](https://via.placeholder.com/800x400/1a1a1a/00ffaa?text=AI+IMAGE+GENERATION+DEMO)
 
-* 🎯 Prototipagem visual rápida
-* 💡 Geração de ilustrações para blogs
+> *"Conjure digital visions from the void"* - Um gerador de imagens por IA com interface cyberpunk
 
-## ⚙️ Pré-requisitos
+## 🌌 Visão Geral
 
-* Python 3.10+
-* Conta no Stability AI
-* Conexão com internet
+Um aplicativo web futurista que utiliza modelos de IA de última geração para gerar imagens impressionantes baseadas em suas descrições. Com uma interface inspirada em terminais cyberpunk, oferece controle total sobre o processo de geração.
 
-## 🛠️ Instalação
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/yyhago/stabilityai-imagegene.git
-cd stabilityai-imagegene
+```ascii
+  _____________________________
+ /                            \
+|    CONECTANDO AO NEURAL NET   |
+ \__  _______________________  /
+    \/                      \/
+    /\    CYBER IMAGERY      /\
+   /  \    GENERATOR 3000   /  \
+  /____\___________________/____\
 ```
 
-2. Crie e ative um ambiente virtual:
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate    # Windows
+## ✨ Funcionalidades
+
+- 🖼️ Geração de imagens por IA (Stable Diffusion v1.6, v2.1, XL)
+- ⚙️ Controles avançados de geração (CFG scale, steps, resolução)
+- 💾 Download direto das imagens geradas
+- 🎨 Interface dark tech com efeitos neon
+- 📱 Layout responsivo para qualquer dispositivo
+
+## 🛠️ Tecnologias
+
+```mermaid
+graph LR
+    A[Streamlit] --> B[Python 3.10+]
+    B --> C[Stable Diffusion API]
+    C --> D[Base64 Images]
+    D --> E[Cyber UI]
 ```
 
-3. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
+## 🚀 Como Usar
 
-4. Crie um arquivo .env na raiz do projeto:
-```bash
-STABILITY_API_KEY=sua_chave_aqui
-```
+1. **Instalação**:
+   ```bash
+   git clone https://github.com/seu-usuario/cyber-image-generator.git
+   cd cyber-image-generator
+   pip install -r requirements.txt
+   ```
 
-## 🖥️ Como Usar
+2. **Configuração**:
+   - Adicione sua API key no arquivo `config.py`
+   - Personalize as opções em `settings.ini`
 
-1. Execute o aplicativo:
-```bash
-streamlit run src/main.py
-```
+3. **Execução**:
+   ```bash
+   streamlit run main.py
+   ```
 
-No navegador, digite sua mensagem e interaja com a IA!
+4. **Geração**:
+   ```python
+   # No terminal cybernético:
+   > DESCRIÇÃO: "Um androide com olhos brilhantes em uma cidade futurista"
+   > ESTILO: "cyberpunk, neon lights, 4k detailed"
+   > [INICIAR GERADOR QUÂNTICO]
+   ```
 
-## 🧩 Estrutura do Projeto
+## 📸 Capturas de Tela
 
-```
-stabilityai-imagegene/
-├── src/
-│   ├── main.py             # Interface principal (Streamlit)
-│   └── image_generator.py  # Integração com a API Gemini e Configuração
-│   └── style.css           # Estilização CSS
-├── .env                    # Configurações sensíveis
-├── requirements.txt        # Dependências
-└── README.md               # Documentação
-```
+| Painel de Controle | Saída de Imagem |
+|---------------------|-----------------|
+| ![Control Panel](https://via.placeholder.com/400x250/1a1a1a/00ffaa?text=CONTROL+PANEL) | ![Output](https://via.placeholder.com/400x250/1a1a1a/00ffaa?text=GENERATED+IMAGE) |
+
+## 🌐 Deploy
+
+Implante facilmente em:
+
+[![Deploy on Vercel](https://img.shields.io/badge/Deploy-Heroku-430098?style=for-the-badge&logo=heroku)](https://heroku.com/deploy)
+[![Run on Replit](https://img.shields.io/badge/Run-Replit-667881?style=for-the-badge&logo=replit)](https://replit.com/github/seu-usuario/cyber-image-generator)

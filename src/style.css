@@ -1,0 +1,161 @@
+/* Reset e Estilos Base - Tema Dark Tech */
+html, body {
+    font-family: 'Courier New', monospace;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container Principal */
+.stApp {
+    background-color: #121212;
+    background-image: radial-gradient(#1e1e1e 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Cabeçalho Estilizado */
+.header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+    color: #00ffaa;
+    padding: 2.5rem;
+    border-radius: 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 18px rgba(0, 255, 170, 0.1);
+    text-align: center;
+    border-bottom: 3px solid #00ffaa;
+    border-top: 3px solid #00ffaa;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 255, 170, 0.5);
+}
+
+.header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+
+/* Botões - Estilo Terminal */
+.stButton>button {
+    border: 2px solid #00ffaa;
+    background: transparent;
+    color: #00ffaa;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 170, 0.3);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 255, 170, 0.5);
+    background: rgba(0, 255, 170, 0.1);
+}
+
+.stButton>button:active {
+    transform: translateY(0);
+}
+
+/* Campos de Texto - Estilo Matrix */
+.stTextArea textarea {
+    border-radius: 0;
+    padding: 1.25rem !important;
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 255, 170, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: #00ffaa;
+    font-family: 'Courier New', monospace;
+}
+
+.stTextArea textarea:focus {
+    border-color: #00ffaa;
+    box-shadow: 0 0 15px rgba(0, 255, 170, 0.3);
+    outline: none;
+}
+
+/* Sidebar - Estilo Cyberpunk */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0a0a0a 0%, #121212 100%);
+    color: #00ffaa;
+    padding: 1.75rem;
+    border-radius: 0;
+    box-shadow: 5px 0 15px rgba(0, 255, 170, 0.2);
+    border-right: 2px solid #00ffaa;
+}
+
+[data-testid="stSidebar"] .stSelectbox, 
+[data-testid="stSidebar"] .stSlider {
+    border-radius: 0;
+    padding: 0.5rem;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+}
+
+[data-testid="stSidebar"] label {
+    color: #00ffaa !important;
+    font-weight: 500;
+}
+
+/* Alertas e Mensagens */
+.stAlert {
+    border-radius: 0;
+    box-shadow: 0 0 15px rgba(0, 255, 170, 0.3);
+    border: 1px solid #00ffaa;
+    background-color: #1a1a1a !important;
+    color: #00ffaa !important;
+}
+
+/* Títulos e Textos */
+h2, h3, h4 {
+    color: #00ffaa;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+
+/* Slider personalizado */
+.stSlider .st-ae {
+    background: #333 !important;
+}
+
+.stSlider .st-af {
+    background: #00ffaa !important;
+}
+
+/* Selectbox personalizado */
+.stSelectbox select {
+    background-color: #1a1a1a !important;
+    color: #00ffaa !important;
+    border: 1px solid #333 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #121212;
+        color: #f8f9fa;
+    }
+    
+    .stApp {
+        background-color: #1e1e1e;
+    }
+    
+    .stTextArea textarea {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        border-color: #444;
+    }
+}
