@@ -1,5 +1,3 @@
-Aqui está um README.md personalizado e estilizado para o seu projeto, seguindo o tema "dark tech" que implementamos:
-
 ```markdown
 # ⚡ CYBER IMAGE GENERATOR
 
